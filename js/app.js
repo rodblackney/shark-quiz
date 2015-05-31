@@ -34,5 +34,16 @@ $(document).ready(function() {
 
 		//factoid
 		$('#factoid').append('<p>The Shortfin Mako Shark has been clocked at 56km/h (35mph) and can use this impressive speed to launch itself 6 meters out of the water. In short bursts during feeding, its believed they can travel even faster.</p>');
+
+
+		// question three
+		$('#question').append('<p>In early 2004, a female great white named Niclole made the longest recorded journey by a shark. Where did she travel?</p>');
+
+		// choices
+		$('#choice').append('<li>a. From Maine to California</li>');
+
+
+
+
 		
  });
