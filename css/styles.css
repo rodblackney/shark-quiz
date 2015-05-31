@@ -1,0 +1,16 @@
+body {
+  color: #151564;
+  background-color: #F7F7F7;
+  line-height: 24px;
+  font-size: 18px;
+font-family: 'Roboto Mono';
+  padding-top: 100px;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+}
