@@ -2,13 +2,13 @@ body {
   color: #151564;
   background-color: #F7F7F7;
   line-height: 22px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Roboto Mono';
   padding-top: 100px;
 }
 
 .container {
-  width: 600px;
+  width: 800px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -17,7 +17,9 @@ body {
 
 .content {
   text-align: left;
-  margin-bottom: 80px;
+  border: 5px solid #ddd;
+  margin-bottom: 50px;
+  padding: 25px;
 }
 
 h4 {
@@ -31,3 +33,4 @@ p.factoid {
 h4.answers {
   color: green;
 }
+

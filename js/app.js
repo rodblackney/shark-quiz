@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 // when document loads hide all other questions except question one
-    $(".content").mouseenter(function() {
+  //  $(".content").mouseenter(function() {
         $(".question-one").show();
         $(".question-two").hide();
         $(".question-three").hide();
@@ -16,7 +16,7 @@ $(document).ready(function() {
     })
 
 // when document loads hide all other questions except question two
-    $(".content").mouseenter(function() {
+//    $(".content").mouseenter(function() {
         $(".question-one").hide();
         $(".question-two").show();
         $(".question-three").hide();
@@ -31,7 +31,7 @@ $(document).ready(function() {
     })
 
 // when document loads hide all other questions except question three
-    $(".content").mouseenter(function() {
+ //   $(".content").mouseenter(function() {
         $(".question-one").hide();
         $(".question-two").hide();
         $(".question-three").show();
@@ -46,7 +46,7 @@ $(document).ready(function() {
     })
 
 // when document loads hide all other questions except question four
-    $(".content").mouseenter(function() {
+ //   $(".content").mouseenter(function() {
         $(".question-one").hide();
         $(".question-two").hide();
         $(".question-three").hide();
@@ -62,7 +62,7 @@ $(document).ready(function() {
 
 
 // when document loads hide all other questions except question five
-    $(".content").mouseenter(function() {
+ //   $(".content").mouseenter(function() {
         $(".question-one").hide();
         $(".question-two").hide();
         $(".question-three").hide();
