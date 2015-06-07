@@ -11,117 +11,104 @@
 </head>
 
 <body>
-
   <div class="container">
-    <div class="intro">
+    <div id="intro">
       <h2>Know your Sharks<h2>
-     <p>A ten question quiz about sharks</p>
-     <button type="submit">Start</button>
+       <p>A ten question quiz about sharks</p>
+       <button type="submit" id="start">Start</button>
     </div>
 
+    <!--Question One-->
+    <div id="question-1" class="question">
+      <h3>Question 1 of 5</h3>
+      <h3 class="question-one">Which of these is NOT a species of shark?</h3>
+      <ul class="choices">
+        <li><input type="radio" id="q1-a" name="q1" value="a" /> <label for="q1-a">Pygmy ribbontail catshark</label></li>
+        <li><input type="radio" id="q1-b" name="q1" value="b" /> <label for="q1-b">Longnose sawshark</label></li>
+        <li><input type="radio" id="q1-c" name="q1" value="c" /> <label for="q1-c">Prickly dogfish</label></li>
+        <li><input type="radio" id="q1-d" name="q1" value="d" /> <label for="q1-d">Humuhumunukunukuapua'a</label></li>
+      </ul>
+      <button type="submit" class="submit-answer" data-qname="q1">Submit</button>
 
-<h3>Question 1 of 5</h3>
+      <!--Answer One -->
+      <div class="answer">
+        <h4 class="answer-one">The answer is D. The answer is Humuhumunukunukuapua'a</h4>
+        <p class="factoid-one">There are more than 350 species of shark - Pygmy Ribbontail Catshark, Prickly Dogfish, and Longnose Sawshark are among them. The Humuhumunukunukuapua'a is the odd one out: It's not a shark - it's a tropical triggerfish that gets its name from the pig-like grunting noise it makes.</p>
+        <button type="submit" class="next-question" data-next="question-2">Next Question</button>
+      </div>
+    </div>
 
-<!--Question One-->
+    <!--Question Two-->
+    <div id="question-2" class="question">
+      <h3 class="question-two">The world's fastest shark hs been recorded at speeds in excess of 50km/h. What species of shark set this records?</h3>
+      <ul class="choices">
+        <li><input type="radio" id="q2-a" name="q2" value="a"> <label for="q2-a">Great White Shark</label></li>
+        <li><input type="radio" id="q2-b" name="q2" value="b"> <label for="q2-b">Sicklefin Hound Shark</label></li>
+        <li><input type="radio" id="q2-c" name="q2" value="c"> <label for="q2-c">Shortfin Mako Shark</label></li>
+      </ul>
+      <button type="submit" class="submit-answer" data-qname="q2">Submit</button>
 
-<div class="content">
-  <h3 class="question-one">Which of these is NOT a species of shark?</h3>
-  <ul class="choices">
-    <input type="radio" name="options" value="a">A. Pygmy ribbontail catshark</input><br>
-    <input type="radio" name="options" value="b">B. Longnose sawshark</input><br>
-    <input type="radio" name="options" value="c">C. Prickly dogfish</input><br>
-    <input type="radio" name="options" value="d">D. Prickly dogfish</input><br>
-  </ul>
-     <button type="submit">Submit</button>
+      <!--Answer Two -->
+      <div class="answer">
+        <h4 class="answer-two">The answer is C. Shortfin Mako Shark</h4>
+        <p class="factoid-two">The Shortfin Mako Shark has been clocked at 56km/h (35mph) and can use this impressive speed to launch itself 6 meters out of the water. In short bursts during feeding, it's believed they can travel even faster.</p>
+        <button type="submit" class="next-question" data-next="question-3">Next Question</button>
+      </div>
+    </div>
 
-<!--Answer One -->
+    <!--Question Three-->
+    <div id="question-3" class="question">
+      <h3 class="question-three">In early 2004, a female great white named Niclole made the longest recorded journey by a shark. Where did she travel?</h3>
+      <ul class="choices">
+        <li><input type="radio" id="q3-a" name="q3" value="a"> <label for="q3-a">From Maine to California</label></li>
+        <li><input type="radio" id="q3-b" name="q3" value="b"> <label for="q3-b">Around the world, from Hawaii</label></li>
+        <li><input type="radio" id="q3-c" name="q3" value="c"> <label for="q3-c">From South Africa to Australia, and back</label></li>
+      </ul>
+      <button type="submit" class="submit-answer" data-qname="q3">Submit</button>
 
-<h4 class="answer-one">The answer is D. The answer is Humuhumunukunukuapua'a</h4>
-  <p class="factoid-one">There are more than 350 species of shark - Pygmy Ribbontail Catshark, Prickly Dogfish, and Longnose Sawshark are among them. The Humuhumunukunukuapua'a is the odd one out: It's not a shark - it's a tropical triggerfish that gets its name from the pig-like grunting noise it makes.</p>
-    <button type="submit">Next Question</button>
-</div>
+      <!--Answer Three-->
+      <div class="answer">
+        <h4 class="answer-three">The answer is C. From South Africa to Australia, and back</h4>
+        <p class="factoid-three">Young female Nicole shocked marine biologists when she surfaced in Australia in Feburary 2004 - just three months after being caught and tagged in South Africa. Even more suprisingly, she then turned back and completed the 20,000 km (12,400 mile) round trip by August, setting long distance speed records in the process.</p>
+        <button type="submit" class="next-question" data-next="question-4">Next Question</button>
+      </div>
+    </div>
 
+    <!--Question Four-->
+    <div id="question-4" class="question">
+      <h3 class="question-four">A Thresher Shark's scythe-like tail can account for up to half of its body length.How has the shark been observed using this tail?</h3>
+      <ul class="choices">
+        <li><input type="radio" id="q4-a" name="q4" value="a"> <label for="q4-a">a. Filcking the tail over its head to slap shoals of fish</label></li>
+        <li><input type="radio" id="q4-b" name="q4" value="b"> <label for="q4-b">b. To communicate: beating out messages on the surface of the water</label></li>
+        <li><input type="radio" id="q4-c" name="q4" value="c"> <label for="q4-c">c. As a glowing lure, to attract smaller fish in the dark</label></li>
+      </ul>
+      <button type="submit" class="submit-answer" data-qname="q4">Submit</button>
 
+      <!--Answer Four-->
+      <div class="answer">
+        <h4 class="answer-four">Filcking the tail over its head to slap shoals of fish.</h4>
+        <p class="factoid-four">Thresher shark's have been filmed accelerating towards shoals of sardines before whipping their long tails over their heads. The resulting mousetrap-like tailwhip can reach speeds of up to 80km/h (50mph), stunning or killing sardines caught in its path.</p>
+        <button type="submit" class="next-question" data-next="question-5">Next Question</button>
+      </div>
+    </div>
 
-<!--Question Two-->
+    <!--Question Five-->
+    <div id="question-5" class="question">
+      <h3 class="question-five">Sand Tiger Shark embryos hatch inside their mothers body. What do they do after hatching?</h3>
+      <ul class="choices">
+        <li><input type="radio" id="q5-a" name="q5" value="a"> <label for="q5-a">Starting eating their mother</label></li>
+        <li><input type="radio" id="q5-b" name="q5" value="b"> <label for="q5-b">Eat their brothers and sisters</label></li>
+        <li><input type="radio" id="q5-c" name="q5" value="c"> <label for="q5-c">Gnaw their way out of the ocean</label></li>
+        <li><input type="radio" id="q5-d" name="q5" value="d"> <label for="q5-d">Eat fish that the mother has swallowed</label></li>
+      </ul>
+      <button type="submit" class="submit-answer" data-qname="q5">Submit</button>
 
-<div class="content">
-  <h3 class="question-two">The world's fastest shark hs been recorded at speeds in excess of 50km/h. What species of shark set this records?</h3>
-  <ul class="choices">
-    <input type="radio" name="options" value="a">A. Great White Shark</input><br>
-    <input type="radio" name="options" value="b">B. Sicklefin Hound Shark</input><br>
-    <input type="radio" name="options" value="c">C. Shortfin Mako Shark</input><br>
-  </ul>
-     <button type="submit">Submit</button>
-
-<!--Answer Two -->
-
-<h4 class="answer-two">The answer is C. Shortfin Mako Shark</h4>
-  <p class="factoid-two">The Shortfin Mako Shark has been clocked at 56km/h (35mph) and can use this impressive speed to launch itself 6 meters out of the water. In short bursts during feeding, it's believed they can travel even faster.</p>
-  <button type="submit">Next Question</button>
-</div>
-
-
-<!--Question Three-->
-
-<div class="content">
-  <h3 class="question-three">In early 2004, a female great white named Niclole made the longest recorded journey by a shark. Where did she travel?</h3>
-  <ul class="choices">
-    <input type="radio" name="options" value="a">A. From Maine to California</input><br>
-    <input type="radio" name="options" value="b">B. Around the world, from Hawaii</input><br>
-    <input type="radio" name="options" value="c">C. From South Africa to Australia, and back</input><br>
-  </ul>
-     <button type="submit">Submit</button>
-
-<!--Answer Three-->
-
-<h4 class="answer-three">The answer is C. From South Africa to Australia, and back</h4>
-  <p class="factoid-three">Young female Nicole shocked marine biologists when she surfaced in Australia in Feburary 2004 - just three months after being caught and tagged in South Africa. Even more suprisingly, she then turned back and completed the 20,000 km (12,400 mile) round trip by August, setting long distance speed records in the process.</p>
-  <button type="submit">Next Question</button>
-</div>
-
-
-<!--Question Four-->
-
-<div class="content">
-  <h3 class="question-four">A Thresher Shark's scythe-like tail can account for up to half of its body length.How has the shark been observed using this tail?</h3>
-  <ul class="choices">
-    <input type="radio" name="options" value="a">a. Filcking the tail over its head to slap shoals of fish</input><br>
-    <input type="radio" name="options" value="b">b. To communicate: beating out messages on the surface of the water</input><br>
-    <input type="radio" name="options" value="c">c. As a glowing lure, to attract smaller fish in the dark</input><br>
-  </ul>
-     <button type="submit">Submit</button>
-
-<!--Answer Five-->
-
-<h4 class="answer-four">Filcking the tail over its head to slap shoals of fish.</h4>
-  <p class="factoid-four">Thresher shark's have been filmed accelerating towards shoals of sardines before whipping their long tails over their heads. The resulting mousetrap-like tailwhip can reach speeds of up to 80km/h (50mph), stunning or killing sardines caught in its path.</p>
-  <button type="submit">Next Question</button>
-</div>
-
-<!--Question Five-->
-
-<div class="content">
-  <h3 class="question-five">Sand Tiger Shark embryos hatch inside their mothers body. What do they do after hatching?</h4>
-  <ul class="choices">
-
-    <input type="radio" name="options" value="a">a. Starting eating their mother</input><br>
-    <input type="radio" name="options" value="b">b. Eat their brothers and sisters</input><br>
-    <input type="radio" name="options" value="c">c. Gnaw their way out of the ocean</input><br>
-    <input type="radio" name="options" value="c">d. Eat fish that the mother has swallowed</input><br>
-  </ul>
-
-     <button type="submit">Submit</button>
-
-<!--Answer Five-->
-
-<h3 class="answer-five">The answer is B. They eat their brothers and sisters</h3>
-  <p class="factoid-five">When Carcharia's taurus embryos hatch, they are just 5cm long. By the time they've grown to 10cm, they have already developed a taste for flseh - chewing on the other developing embryo's additional eggs while still in the uterus.</p>
-<button type="submit">Next Question</button>
-</div>
-
-
-</div>
-
+      <!--Answer Five-->
+      <div class="answer">
+        <h3 class="answer-five">The answer is B. They eat their brothers and sisters</h3>
+        <p class="factoid-five">When Carcharia's taurus embryos hatch, they are just 5cm long. By the time they've grown to 10cm, they have already developed a taste for flseh - chewing on the other developing embryo's additional eggs while still in the uterus.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
