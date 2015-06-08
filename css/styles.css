@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 800px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -30,7 +30,7 @@ p.factoid {
   color: black;
 }
 
-h4.answer-one .answer-two .answer-three .answer-four .answer-five{
+h4.answers {
   color: green;
 }
 
